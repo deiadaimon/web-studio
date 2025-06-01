@@ -1,0 +1,73 @@
+:root {
+  --white: #ffffff;
+  --snow: #fcfcfc;
+  --ghost-white: #f4f4fd;
+  --lavender: #e7e9fc;
+  --manatee: #8e8f99;
+  --gun-powder: #434455;
+  --valhalla: #2e2f42;
+  --royal-blue: #4d5ae5;
+  --free-speech-blue: #404bbf;
+  --shamrock: #31d0aa;
+}
+
+/* ============ RESET STYLES ============ */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--gun-powder);
+  background-color: var(--white);
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+button {
+  padding: 0;
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* ============ COMMON STYLES ============ */
+
+/* ============ LOGO STYLES ============ */
+
+/* ============ HEADER STYLES ============ */
+
+/* ============ HERO STYLES ============ */
+
+/* ============ FEATURES STYLES ============ */
+
+/* ============ TEAM STYLES ============ */
+
+/* ============ PORTFOLIO STYLES ============ */
+
+/* ============ FOOTER STYLES ============ */
+
+/* ============ MODAL STYLES ============ */
+
+/* ============ MOBILE MENU STYLES ============ */
