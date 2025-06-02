@@ -575,11 +575,101 @@ ul {
 .footer {
   background-color: var(--valhalla);
 }
+.footer .wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 72px;
+}
+.text-wrapper {
+  width: 264px;
+}
+.footer .logo {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--ghost-white);
+}
+.footer-caption {
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  text-align: center;
+}
+.footer .socials {
+  gap: 16px;
+}
+.footer .socials-link:hover,
+.footer .socials-link:focus {
+  background-color: var(--shamrock);
+}
+.form-wrapper {
+  width: 288px;
+}
+.form-input {
+  width: 100%;
+  height: 40px;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: transparent;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.form-input::placeholder {
+  opacity: 0.6;
+}
+.footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 165px;
+  height: 40px;
+  padding: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  color: var(--white);
+}
+.send-icon {
+  fill: currentColor;
+}
 
 @media screen and (min-width: 768px) {
   .footer .container {
     padding-right: 108px;
     padding-left: 108px;
+  }
+  .footer .wrapper {
+    justify-content: start;
+    column-gap: 24px;
+  }
+  .footer .logo {
+    text-align: left;
+  }
+  .footer-caption {
+    text-align: left;
+  }
+  .form-wrapper {
+    width: 453px;
+  }
+  .subscribe-form {
+    display: flex;
+    gap: 24px;
+  }
+  .form-input {
+    width: 264px;
+    margin-bottom: 0;
   }
 }
 
@@ -591,6 +681,13 @@ ul {
   .footer .container {
     padding-right: 15px;
     padding-left: 15px;
+  }
+  .footer .wrapper {
+    flex-wrap: nowrap;
+    column-gap: 80px;
+  }
+  .socials-wrapper {
+    margin-left: 40px;
   }
 }
 
