@@ -6,8 +6,21 @@
     <title>Web Studio</title>
 
     <!-- ============ FONTS ============ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- ============ NORMALIZE BROWSERS' DEFAULT STYLE ============ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- ============ CUSTOM STYLES ============ -->
     <link rel="stylesheet" href="./css/styles.css" />
@@ -15,24 +28,72 @@
 
   <body>
     <!-- ============ HEADER ============ -->
-    <header class="header"></header>
+    <header class="header">
+      <div class="container wrapper">
+        <nav class="navigation">
+          <a class="logo" href="./index.html"
+            >Web<span class="dark">Studio</span></a
+          >
+          <ul class="navigation-menu">
+            <li>
+              <a class="navigation-link current" href="./index.html">Studio</a>
+            </li>
+            <li><a class="navigation-link" href="">Portfolio</a></li>
+            <li><a class="navigation-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <ul class="contacts-menu">
+            <li>
+              <a class="contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button
+          class="mobile-menu-btn"
+          type="button"
+          aria-label="Open mobile menu button"
+        >
+          <svg class="mobile-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
 
     <main>
       <!-- ============ HERO SECTION ============ -->
-      <section class="hero"></section>
+      <section class="hero">
+        <div class="container"></div>
+      </section>
 
       <!-- ============ FEATURES SECTION ============ -->
-      <section class="features"></section>
+      <section class="features section">
+        <div class="container"></div>
+      </section>
 
       <!-- ============ TEAM SECTION ============ -->
-      <section class="team"></section>
+      <section class="team section">
+        <div class="container"></div>
+      </section>
 
       <!-- ============ PORTFOLIO SECTION ============ -->
-      <section class="portfolio"></section>
+      <section class="portfolio section">
+        <div class="container"></div>
+      </section>
     </main>
 
     <!-- ============ FOOTER ============ -->
-    <footer class="footer"></footer>
+    <footer class="footer section">
+      <div class="container"></div>
+    </footer>
 
     <!-- ============ MODAL ============ -->
 
