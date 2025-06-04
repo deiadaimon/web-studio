@@ -100,13 +100,13 @@ ul {
   border: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
     padding-right: 15px;
@@ -165,7 +165,7 @@ ul {
   border: none;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .header .logo {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -229,7 +229,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
   .navigation {
     gap: 76px;
   }
@@ -280,9 +280,7 @@ ul {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-@media screen and (min-resolution: 192dpi) and (max-width: 767.98px),
-  screen and (min-resolution: 2dppx) and (max-width: 767.98px),
-  screen and (min-device-pixel-ratio: 2) and (max-width: 767.98px) {
+@media (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
         to bottom,
@@ -293,7 +291,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
         to bottom,
@@ -312,9 +310,7 @@ ul {
   }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 768px),
-  screen and (min-resolution: 2dppx) and (min-width: 768px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
         to bottom,
@@ -325,7 +321,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
   .hero {
     background-image: linear-gradient(
         to bottom,
@@ -342,9 +338,7 @@ ul {
   }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
-  screen and (min-resolution: 2dppx) and (min-width: 1158px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
         to bottom,
@@ -378,7 +372,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .features-list {
     column-gap: 24px;
   }
@@ -390,7 +384,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
   .features-list {
     flex-wrap: nowrap;
   }
@@ -480,14 +474,14 @@ ul {
   fill: currentColor;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .team-list {
     row-gap: 64px;
     column-gap: 24px;
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
   .team-list {
     flex-wrap: nowrap;
   }
@@ -552,7 +546,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .project-list {
     row-gap: 72px;
     column-gap: 24px;
@@ -562,7 +556,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
   .project-list {
     row-gap: 48px;
   }
@@ -645,7 +639,7 @@ ul {
   fill: currentColor;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .footer .container {
     padding-right: 108px;
     padding-left: 108px;
@@ -673,7 +667,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
   .footer.section {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -852,7 +846,7 @@ ul {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .modal {
     width: 408px;
     min-height: 584px;
