@@ -605,7 +605,7 @@ ul {
 .form-wrapper {
   width: 288px;
 }
-.form-input {
+.subscription .form-input {
   width: 100%;
   height: 40px;
   padding-left: 16px;
@@ -620,7 +620,7 @@ ul {
   outline: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-.form-input::placeholder {
+.subscription .form-input::placeholder {
   opacity: 0.6;
 }
 .footer-btn {
@@ -657,11 +657,11 @@ ul {
   .form-wrapper {
     width: 453px;
   }
-  .subscribe-form {
+  .subscription {
     display: flex;
     gap: 24px;
   }
-  .form-input {
+  .subscription .form-input {
     width: 264px;
     margin-bottom: 0;
   }
@@ -738,7 +738,7 @@ ul {
   color: var(--valhalla);
   text-align: center;
 }
-.modal .form-label {
+.callback .form-label {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
@@ -746,11 +746,11 @@ ul {
   letter-spacing: 0.04em;
   color: var(--manatee);
 }
-.modal .input-wrapper {
+.callback .input-wrapper {
   position: relative;
   margin-bottom: 8px;
 }
-.modal .form-input {
+.callback .form-input {
   width: 100%;
   height: 40px;
   padding-left: 38px;
@@ -761,10 +761,9 @@ ul {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   outline: none;
-  box-shadow: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal .form-input:focus {
+.callback .form-input:focus {
   border-color: var(--royal-blue);
 }
 .form-icon {
@@ -775,7 +774,7 @@ ul {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal .form-input:focus + .form-icon {
+.callback .form-input:focus + .form-icon {
   fill: var(--royal-blue);
 }
 .form-comment {
@@ -800,7 +799,9 @@ ul {
   border-color: var(--royal-blue);
 }
 .form-agreement {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin-bottom: 24px;
   font-size: 12px;
   line-height: 1.17;
@@ -810,6 +811,7 @@ ul {
 }
 .custom-checkbox {
   display: inline-flex;
+  flex-shrink: 0;
   justify-content: center;
   align-items: center;
   width: 16px;
@@ -851,6 +853,9 @@ ul {
     width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px;
+  }
+  .form-agreement {
+    align-items: baseline;
   }
 }
 
