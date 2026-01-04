@@ -1,0 +1,101 @@
+.hero {
+  background-color: var(--valhalla);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../img/hero-bg-w320.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 52px;
+}
+.hero-title {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+.hero-btn {
+  width: 169px;
+  height: 56px;
+  padding: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/hero-bg-w320@2x.jpg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/hero-bg-w768.jpg);
+  }
+  .hero .container {
+    padding: 112px 136px;
+  }
+  .hero-title {
+    margin-bottom: 36px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/hero-bg-w768@2x.jpg);
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/hero-bg-w1440.jpg);
+  }
+  .hero .container {
+    padding: 188px 331px;
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+}
+
+@media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/hero-bg-w1440@2x.jpg);
+  }
+}
