@@ -1,19 +1,39 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+  <div class="container wrapper">
+    <nav class="navigation">
+      <a class="logo" href="./index.html"
+        >Web<span class="dark">Studio</span></a
+      >
+      <ul class="navigation-menu">
+        <li>
+          <a class="navigation-link current" href="./index.html">Studio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
+        <li><a class="navigation-link" href="">Portfolio</a></li>
+        <li><a class="navigation-link" href="">Contacts</a></li>
       </ul>
     </nav>
+    <address class="contacts">
+      <ul class="contacts-menu">
+        <li>
+          <a class="contact-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact-link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+    </address>
+    <button
+      class="mobile-menu-btn"
+      type="button"
+      aria-label="Open mobile menu button"
+    >
+      <svg class="mobile-menu-icon" width="24" height="24">
+        <use href="./img/icons.svg#icon-menu"></use>
+      </svg>
+    </button>
   </div>
 </header>
